@@ -1,0 +1,94 @@
+.app-container {
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: background 1.2s ease-in-out;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+button, input {
+  font-family: inherit;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 18px;
+  outline: none;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffe066;
+  transform: scale(1.05);
+}
+
+.weather-info {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px 25px;
+  max-width: 400px;
+  margin-top: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.weather-info:hover {
+  transform: translateY(-5px);
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+
+.extra-info {
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.forecast-day {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  width: 90px;
+  padding: 10px;
+  margin: 8px;
+  transition: transform 0.3s ease;
+}
+
+.forecast-day:hover {
+  transform: scale(1.08);
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 6px 0;
+}
